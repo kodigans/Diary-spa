@@ -16,10 +16,10 @@ class App extends React.Component<{}, {}> {
             <>
                 <Fonts/>
                 <TaskToday/>
-                {/*<RegistrationFormPresentational/>*/}
-                {/*<ToolBar/>*/}
-                {/*<NotificationPresentation/>*/}
-                {/*<EventForm/>*/}
+                {/* <RegistrationFormPresentational/> */}
+                {/* <ToolBar/> */}
+                {/* <NotificationPresentation/> */}
+                {/* <EventForm/> */}
             </>
         )
     }

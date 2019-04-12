@@ -1,35 +1,36 @@
 import styled from 'styled-components';
+import TaskToday from './TaskToday';
 
-export const WrapperTaskToday = styled.section`
-    flex: 0 1 54%;
-    display: flex;
-    flex-direction: 
-    flex-shrink: 0;
+export const WrapperTaskToday = styled.section`    
+    display: flex; 
+    flex-direction: column;       
     background-color: #f2f6fa;
     padding-left: 30px;
-    padding-right: 30px;
-    height: 100%;
+    padding-right: 30px;    
     margin:0;    
     min-width: 400px;
     width: calc(60% - 60px);
-    position: relative;
-    min-height: 100vh;
+    position: relative;    
 `;
 
-export const WrapperTaskTodayHeader = styled.header`
+export const WrapperTaskTodayHeader = styled.div`
   display: flex;
+  flex-direction: row;     
+  flex-wrap: wrap;
   flex-shrink: 0;
-  min-height: 100px;
-  margin-top: 30px;
+  min-width: 100px;
+  width: 40%;  
+  margin-top: 30px;  
+  margin-bottom: 20px;
 `;
 
 export const TaskTodayTitle = styled.div`
     
 `;
 
-export const CurrentDate = styled.h2`
+export const CurrentDate = styled.h2`    
     margin: 0;
-    padding: 0 10px 0 25px;
+    width: 100%;    
     font-size: 30px;
     color: #1b2733;
     font-family: 'Avenir', sans-serif;
@@ -37,3 +38,11 @@ export const CurrentDate = styled.h2`
     text-transform: none;
     white-space: nowrap;
 `;
+
+export const TaskTodayHeader = styled.header`
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    height: 20%;
+    width: 100;
+`
