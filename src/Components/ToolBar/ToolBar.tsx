@@ -5,23 +5,38 @@ import Option from './Option/Option';
 
 interface ToolBarProps {}
 
-const ToolBar = ({  }: ToolBarProps) => {
+const themeForNotificationButton = {
+  width: '30px',
+  height: '20px',
+};
+
+const themeForSettingsButton = {
+  width: '30px',
+    height: '30px',
+};
+
+const themeForToolthButton = {
+  width: '20px',
+  height: '20px',
+};
+
+const ToolBar = ({}: ToolBarProps) => {
   return (
     <ToolBarPanel>
       <MainOption>
-        <Option theme={{slipDown: '-180px', size: '20px'}}/>
-        <Option theme={{slipDown: '-120px', size: '40px'}}/>
-        <Option theme={{slipDown: '-210px', size: '40px'}}/>
-        <Option theme={{slipDown: '-300px', size: '40px'}}/>
+        <Option theme={{backgroundPosition: '0 -180px', width: '30px', height: '30px'}}/>
+        <Option theme={{backgroundPosition: '0 -120px', width: '30px', height: '30px'}}/>
+        <Option theme={{backgroundPosition: '0 -150px', width: '30px', height: '30px'}}/>
+        <Option theme={{backgroundPosition: '0 -210px', width: '30px', height: '30px'}}/>
       </MainOption>
 
       <NewTask>
-        <Option theme={{slipDown: '-400px', size: '35px'}}/>
+        <Option theme={{backgroundPosition: '0 -320px', width: '32px', height: '32px'}}/>
       </NewTask>
 
       <Setting>
-        <Option theme={{slipDown: '-320px', size: '40px'}}/>
-        <Option theme={{slipDown: '-360px', size: '40px'}}/>
+        <Option theme={{backgroundPosition: '0 -162px', width: '18px', height: '18px'}}/>
+        <Option theme={{backgroundPosition: '0 -145px', width: '18px', height: '18px'}}/>
       </Setting>
     </ToolBarPanel>
   );

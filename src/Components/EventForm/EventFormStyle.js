@@ -3,10 +3,9 @@ import sprite from '../../Svg/sprite.svg';
 //import sprite from '../../../Svg/sprite.svg';
 
 export const  EventFormWrapper = styled.div`
-    display: flex;
+    display: inline-block;
     flex-direction: column;    
-    width: 400px;
-    height: 300px;
+    width: 400px;    
     background: white;    
     bottom: inherit !important;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
@@ -17,6 +16,7 @@ export const  EventFormWrapper = styled.div`
 
 export const EventMainWrap = styled.div`
     display: flex; 
+    flex-wrap: wrap;
     width: 100% - 40px;   
     padding: 20px 20px;
     padding-bottom: 0;     

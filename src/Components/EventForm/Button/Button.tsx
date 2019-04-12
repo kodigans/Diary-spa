@@ -13,6 +13,6 @@ const EventFormButton = ({theme, text}: EventFormButtonProps) => {
     return (
         <Button theme={theme}> {text} </Button>
     )
-}
+};
 
 export default EventFormButton;
