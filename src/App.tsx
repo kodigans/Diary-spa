@@ -14,10 +14,10 @@ class App extends React.Component<{}, {}> {
         return (
             <>
                 <Fonts/>
-                {/* <RegistrationFormPresentational/> */}
-                {/*<ToolBar/>*/}
-                <NotificationPresentation/>
-                {/* <EventForm/> */}
+                {/* <RegistrationFormPresentational/>
+                <ToolBar/>
+                <NotificationPresentation/> */}
+                <EventForm/>
             </>
         )
     }
