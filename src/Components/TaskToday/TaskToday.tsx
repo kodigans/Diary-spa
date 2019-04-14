@@ -1,8 +1,10 @@
 import * as React from 'react';
 
 import { WrapperTaskToday, WrapperTaskTodayHeader, CurrentDate, TaskTodayHeader} from  './TaskTodayStyle';
+import CreateTask from './CreateTask/CreateTask';
 import CountButton from "./CountButton/CountButton";
 import DataFiled from "../EventForm/DataFiled/DataFiled";
+import InsertSvg from './InsertSvg/InsertSvg';
 
 interface TaskTodayProps {}
 
@@ -52,14 +54,16 @@ const themeForTasksToday = {
         flex: '1 1',
         minWidth: '300px',                     
         border: '1px solid #e6e8eb',
-        backgroundColor: '#e6e8eb',
+        backgroundColor: 'inherit',
+        height: '12px',
+        marginBottom: '10px'
     }
 };
 
 const TaskToday = ({}: TaskTodayProps) => {
     return (
-        <WrapperTaskToday>
-            <TaskTodayHeader>
+        <WrapperTaskToday>            
+            <TaskTodayHeader>            
             <WrapperTaskTodayHeader>
                 <CurrentDate>
                     12 Friday
@@ -70,9 +74,10 @@ const TaskToday = ({}: TaskTodayProps) => {
             <DataFiled theme={themeForUser}/>
             </TaskTodayHeader>
             <DataFiled theme={themeForTasksToday}/>           
-        </WrapperTaskToday>
-        
+            <CreateTask/>                        
+            
 
+        </WrapperTaskToday>      
     )
 };
 

@@ -7,6 +7,7 @@ import NotificationPresentation from "./Components/Notification/Notification";
 import { Fonts } from './Fonts/Fonts';
 import EventForm from "./Components/EventForm/EventForm";
 import TaskToday from "./Components/TaskToday/TaskToday";
+import AddWorkSpace from './Components/AddWorkSpace/AddWorkSpace';
 
 class App extends React.Component<{}, {}> {
 
@@ -15,9 +16,10 @@ class App extends React.Component<{}, {}> {
         return (
             <>
                 <Fonts/>
-                <TaskToday/>
-                {/* <RegistrationFormPresentational/> */}
+                <AddWorkSpace/>
                 {/* <ToolBar/> */}
+                {/* <TaskToday/> */}
+                {/* <RegistrationFormPresentational/> */}
                 {/* <NotificationPresentation/> */}
                 {/* <EventForm/> */}
             </>

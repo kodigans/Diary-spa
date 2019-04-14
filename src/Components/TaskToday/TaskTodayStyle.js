@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import TaskToday from './TaskToday';
 
 export const WrapperTaskToday = styled.section`    
     display: flex; 
