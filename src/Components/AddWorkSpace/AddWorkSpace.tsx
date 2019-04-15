@@ -2,11 +2,12 @@ import * as React from 'react';
 
 import { AddWorkSpaceWrapper, AddWorkSpaceMain, AddWorkSpaceHeader, TeamCreateWrapper, WorkSpaceImage, CustomIconBlock } from './AddWorkSpaceStyle';
 import CustomDataFiled from './DataFiled/DataFiled';
+import ColorPicker from "./ColorPicker/ColorPicker";
 
 const themeForWorkSpaceName = {
     forWrapper: {
         wrapperTheme: {
-            width: '80%',
+            width: '85%',
             height: '37px'
         }
     },
@@ -17,7 +18,7 @@ const themeForWorkSpaceName = {
     forLabel: {
         textLabel: 'WorkSpace name',
     }
- }
+ };
 
  const themeForColorPicker = {
     forWrapper: {
@@ -35,7 +36,7 @@ const themeForWorkSpaceName = {
     forLabel: {
         textLabel: 'Color',
     }
- }
+ };
 
 const AddWorkSpace = ({}) => {
     return (
@@ -50,10 +51,11 @@ const AddWorkSpace = ({}) => {
                 <CustomDataFiled theme={themeForWorkSpaceName}/>                
                 <CustomIconBlock/>                        
                 <CustomDataFiled theme={themeForColorPicker}/>
+                <ColorPicker/>
             </AddWorkSpaceMain>                       
         </AddWorkSpaceWrapper>
     )
-}
+};
 
 export default AddWorkSpace;
 

@@ -1,5 +1,15 @@
 import styled from 'styled-components';
 
+export const TaskTodayHeader = styled.header`
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    height: 20%;
+    width: 100;
+`;
+
+
+
 export const WrapperTaskToday = styled.section`    
     display: flex; 
     flex-direction: column;       
@@ -23,10 +33,6 @@ export const WrapperTaskTodayHeader = styled.div`
   margin-bottom: 20px;
 `;
 
-export const TaskTodayTitle = styled.div`
-    
-`;
-
 export const CurrentDate = styled.h2`    
     margin: 0;
     width: 100%;    
@@ -37,11 +43,3 @@ export const CurrentDate = styled.h2`
     text-transform: none;
     white-space: nowrap;
 `;
-
-export const TaskTodayHeader = styled.header`
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    height: 20%;
-    width: 100;
-`

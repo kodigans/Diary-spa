@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import slim from './slim.jpg';
+///import slim from './slim.jpg';
 import kit from './KIT.png';
 
 
@@ -76,15 +76,6 @@ export  const NotificationBodyMessage = styled.div`
 
 export  const NotificationBody = styled.div `
     width: 65%;
-`;
-
-export const NotificationWeather = styled.div `
-    background-image: url(${slim});
-    background-size: cover;
-    height: 52px;
-    width: 52px;
-    margin: 0;
-    border: none;
 `;
 
 export  const ListIcon = styled.p`

@@ -16,12 +16,12 @@ class App extends React.Component<{}, {}> {
         return (
             <>
                 <Fonts/>
-                <AddWorkSpace/>
-                {/* <ToolBar/> */}
-                {/* <TaskToday/> */}
-                {/* <RegistrationFormPresentational/> */}
-                {/* <NotificationPresentation/> */}
-                {/* <EventForm/> */}
+                 <ToolBar/>
+                 <AddWorkSpace/>
+                 {/*<TaskToday/>*/}
+                 {/*<RegistrationFormPresentational/>*/}
+                 {/*<NotificationPresentation/>*/}
+                 {/*<EventForm/>*/}
             </>
         )
     }

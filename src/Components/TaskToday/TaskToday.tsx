@@ -4,7 +4,7 @@ import { WrapperTaskToday, WrapperTaskTodayHeader, CurrentDate, TaskTodayHeader}
 import CreateTask from './CreateTask/CreateTask';
 import CountButton from "./CountButton/CountButton";
 import DataFiled from "../EventForm/DataFiled/DataFiled";
-import InsertSvg from './InsertSvg/InsertSvg';
+//import InsertSvg from './InsertSvg/InsertSvg';
 
 interface TaskTodayProps {}
 
