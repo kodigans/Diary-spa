@@ -10,14 +10,15 @@ export const AddWorkSpaceWrapper = styled.section`
 
 export const AddWorkSpaceMain = styled.div`
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     //min-width: 600px;
     width: 600px;     
     margin: 60px auto; 
 `;
 
-export const AddWorkSpaceHeader = styled.header`
-    display: flex; 
+export const AddWorkSpaceHeader = styled.header` 
+    display: flex;    
     width: 100%;
 `;
 
@@ -57,4 +58,18 @@ export const WorkSpaceImage = styled.p`
       color: #9faab7;
       margin-left: auto;
   }
+`
+
+export const CustomIconBlock = styled.div`        
+    height: 40px;
+    width: 40px;
+    line-height: 50px;
+    margin-left: 25px;
+    font-size: 25px;
+    font-family: 'proxima-nova', sans-serif;
+    border-radius: 3px;
+    background: #ffc4a9;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 15px;
 `

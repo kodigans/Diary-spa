@@ -1,14 +1,18 @@
 import * as React from 'react';
 
-import { DataFiledWrapper, Input, FloatingLabel } from './DataFiledStyle';
+import { DataFiledWrapper, Input, FloatingLabel, CustomBorder } from './DataFiledStyle';
 
-const CustomDataFiled = () => {
+const CustomDataFiled = ({theme: {forWrapper, forInput, forLabel}}) => {
+    const { wrapperTheme } = forWrapper;
+    const { inputTheme, ...inputAttr}  = forInput; 
     return (
-        <DataFiledWrapper>
-            <Input type='text' required={true}/>            
+        console.log(wrapperTheme),
+        <DataFiledWrapper theme={wrapperTheme}>
+            <Input type='text' placeholder=" " {...inputAttr} theme={inputTheme}/>            
             <FloatingLabel>
-                WorkSpace Name  
-            </FloatingLabel>
+                {forLabel.textLabel}
+            </FloatingLabel>    
+            <CustomBorder/>                
         </DataFiledWrapper>
     )
 }
