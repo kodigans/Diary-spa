@@ -11,6 +11,8 @@ export const AddWorkSpaceWrapper = styled.section`
 export const AddWorkSpaceMain = styled.div`
     display: flex;
     flex-direction: row;
+    //  align-content: space-between;
+    justify-content: space-between
     flex-wrap: wrap;
     //min-width: 600px;
     width: 600px;     
@@ -72,4 +74,14 @@ export const CustomIconBlock = styled.div`
     border: 1px solid rgba(0, 0, 0, 0.3);
     color: rgba(0, 0, 0, 0.6);
     margin-bottom: 15px;
+`
+
+export const SameLabel = styled.h3`
+    width: 100%;
+    font-family: 'Avenir'; 
+    font-size: 22px;
+    line-height: 30px;
+    color: #637282;
+    margin-top: 45px;
+    margin-bottom: 25px;
 `

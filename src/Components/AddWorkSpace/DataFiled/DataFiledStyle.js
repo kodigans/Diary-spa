@@ -14,6 +14,7 @@ export const FloatingLabel = styled.span`
   left: 20px;
   top: 18px;
   transition: 0.2s ease all;
+  color: rgba(0,0,0,.87);
 `
 
 export const CustomBorder = styled.div`
