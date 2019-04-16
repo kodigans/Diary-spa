@@ -58,4 +58,4 @@ export const Input = styled.input`
         opacity: 1;        
     }
     ${({theme}) => ({...theme})};
-`
+`;

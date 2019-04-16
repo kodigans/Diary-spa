@@ -48,10 +48,9 @@ const themeForTasksToday = {
             backgroundColor: 'inherit',            
         }
     },
-    forWrapper: {                
+    forWrapper: {
         borderBottom: '1px solid #eee',
-        borderRadius: '6px',        
-        flex: '1 1',
+        borderRadius: '6px',
         minWidth: '300px',                     
         border: '1px solid #e6e8eb',
         backgroundColor: 'inherit',

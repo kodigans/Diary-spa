@@ -2,11 +2,13 @@ import * as React from 'react';
 
 import { Button } from './DefaultButtonStyle';
 
-interface DefaultButton {}
+interface DefaultButton {
+    theme?: any
+}
 
-const DefaultButton = ({}: DefaultButton) => {
+const DefaultButton = ({theme}: DefaultButton) => {
     return (        
-            <Button> 
+            <Button theme={theme}>
                 Lorem ipsum
             </Button>                        
     )

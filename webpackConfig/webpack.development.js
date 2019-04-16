@@ -20,7 +20,7 @@ module.exports = {
                 test: /\.less$/,                
                 use: extractTextWebpackPlugin.extract({                   
                     use: ['css-loader', 'less-loader']
-                })
+                })  
             },
             {
                 test: /\.(svg|png|woff|ttf|eot|woff2|jpg)$/,

@@ -15,6 +15,6 @@ const CustomDataFiled = ({theme: {forWrapper, forInput, forLabel}}) => {
             <CustomBorder/>                
         </DataFiledWrapper>
     )
-}
+};
 
 export default CustomDataFiled;

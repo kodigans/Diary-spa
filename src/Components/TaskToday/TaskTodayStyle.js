@@ -10,15 +10,17 @@ export const TaskTodayHeader = styled.header`
 
 
 
-export const WrapperTaskToday = styled.section`    
+export const WrapperTaskToday = styled.section`
+    height: 100vh;    
     display: flex; 
+    flex: 1;
     flex-direction: column;       
     background-color: #f2f6fa;
     padding-left: 30px;
     padding-right: 30px;    
     margin:0;    
     min-width: 400px;
-    width: calc(60% - 60px);
+    width: calc(50% - 60px);
     position: relative;    
 `;
 

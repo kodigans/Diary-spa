@@ -46,4 +46,4 @@ export const CustomCircle = styled.input`
       transform: rotate(40deg);      
      }
      ${({theme}) => ({backgroundColor: theme})}
-`
+`;

@@ -8,6 +8,7 @@ import { Fonts } from './Fonts/Fonts';
 import EventForm from "./Components/EventForm/EventForm";
 import TaskToday from "./Components/TaskToday/TaskToday";
 import AddWorkSpace from './Components/AddWorkSpace/AddWorkSpace';
+import Schedule from "./Components/Calendar/Schedule";
 
 class App extends React.Component<{}, {}> {
 
@@ -17,8 +18,9 @@ class App extends React.Component<{}, {}> {
             <>
                 <Fonts/>
                  <ToolBar/>
-                 <AddWorkSpace/>
-                 {/*<TaskToday/>*/}
+                 {/*<AddWorkSpace/>*/}
+                 <TaskToday/>
+                 <Schedule/>
                  {/*<RegistrationFormPresentational/>*/}
                  {/*<NotificationPresentation/>*/}
                  {/*<EventForm/>*/}

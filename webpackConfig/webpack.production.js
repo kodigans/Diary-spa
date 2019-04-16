@@ -25,4 +25,4 @@ module.exports = {
         }),
         new extractTextWebpackPlugin('style/style.css')
     ]
-}
+};
